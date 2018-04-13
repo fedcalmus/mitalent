@@ -65,3 +65,174 @@ button {
     outline: none;
     cursor: pointer;
 }
+
+input {
+    outline: none;
+}
+
+/* Reset css ends here */
+
+/* General styles start here */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1a1a1d;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+.alignItemCenter {
+    align-items: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+/* Background color styles start here*/
+
+.greenBg {
+    background-color: #deebeb;
+}
+
+.whiteBg {
+    background-color: #ffffff;
+}
+/* Background color styles end here */
+
+/* Text alignment styles start here */
+
+.txtLeft {
+    text-align: left;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.txtRight {
+    text-align: right;
+}
+
+/* Text alignment styles end here */
+
+/* Border styles start here */
+
+.borderNone {
+    border: none;
+}
+/* Border styles end here */
+
+/* Input/button styles start here */
+
+.inputMd {
+    padding: 15px 25px;
+}
+
+/* Input/button styles start here */
+
+/* Font weight styles start here */
+
+.extraBold {
+    font-weight: 800;
+}
+
+/* Font weight styles end here */
+
+/* Font size styles start here */
+
+.txtXs {
+    font-size: 12px;
+}
+
+.txtMd {
+    font-size: 16px;
+}
+
+/* Font size styles end here */
+
+/* Text color styles start here */
+
+.txtDark {
+    color: #1a1a1d;
+}
+
+/* Text color styles end here */
+
+/* Text transform styles start here */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Text transform styles end here */
+
+.transition {
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition:  0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+/* General styles end here */
+
+/* Header styles start here */
+
+.flexContent div {
+    padding: 35px 0;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+nav li a:hover, .nav i:hover {
+    color: 	#717d87;
+}
+
+.nav i {
+    cursor: pointer;
+    padding: 0 60px;
+}
+
+.nav {
+    width: 40%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.form {
+    width: 40%;
+    padding-right: 60px!important;
+}
+
+.search {
+    border-left: 1px solid #b4d3d3;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* Header styles end here */
