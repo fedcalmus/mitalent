@@ -197,7 +197,8 @@ body {
 /* Header styles start here */
 
 .flexContent div {
-    padding: 35px 0;
+    padding-top: 35px;
+    padding-bottom: 135px;
 }
 
 nav li {
