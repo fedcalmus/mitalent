@@ -241,5 +241,36 @@ nav li a:hover, .nav i:hover {
     letter-spacing: 2px;
 }
 
-
 /* Header styles end here */
+
+/* Talent section styles start here */
+
+.talentLeft {
+    width: 60%;
+}
+
+.talentRight{
+    width: 40%;
+}
+
+.talentRight, .talentLeft {
+    padding: 203px 63px 270px 63px;
+}
+
+.socialIcons {
+    width: 21%;
+}
+
+.talentInfo {
+    width: 79%;
+}
+
+.socialIcons ul li {
+    padding-bottom: 40px;
+}
+
+.socialIcons ul li a {
+    color: #1a1a1d;
+}
+
+/* Talent section styles end here */
