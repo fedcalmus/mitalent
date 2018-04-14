@@ -25,26 +25,26 @@
 </head>
 <body>
 <!-- Header content start -->
-<header>
-    <div class="flex spaceBetween flexContent">
-        <div class="nav flex greenBg alignItemCenter">
+<header class="flex spaceBetween">
+    <div class="headerLeft greenBg flex alignItemCenter spaceBetween">
+        <div class="nav">
             <i class="fas fa-bars txtMd"></i>
-            <nav>
+            <nav class="inlineBlock">
                 <ul>
                     <li><a class="extraBold capitalize txtDark" href="#">clients</a></li>
                     <li><a class="extraBold capitalize txtDark" href="#">news</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="logo greenBg txtCenter flex alignItemCenter">
+        <div class="logo">
             <a href="#"><img src="img/logo.png" alt="Logo"></a>
         </div>
-        <div class="form txtRight whiteBg">
-            <form action="">
-                <input type="text" placeholder="Search client" name="search" class="inputMd search borderNone capitalize">
-                <button type="submit" class="borderNone whiteBg"><i class="fas fa-search"></i></button>
-            </form>
-        </div>
+    </div>
+    <div class="headerRight flex alignItemCenter flexEnd">
+        <form action="">
+            <input type="text" placeholder="Search client" name="search" class="inputMd search borderNone capitalize">
+            <button type="submit" class="borderNone whiteBg"><i class="fas fa-search"></i></button>
+        </form>
     </div>
 </header>
 <!--Header content end here -->
@@ -81,6 +81,7 @@
                 <h4>John Doe</h4>
             </div>
         </div>
+    </div>
 </section>
 <!-- Main content ends here -->
 </body>

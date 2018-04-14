@@ -103,6 +103,14 @@ body {
     justify-content: space-between;
 }
 
+.spaceAround {
+    justify-content: space-around;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
 /* Background color styles start here*/
 
 .greenBg {
@@ -192,13 +200,24 @@ body {
     transition: 0.3s ease-out;
 }
 
+.inlineBlock {
+    display: inline-block;
+}
+
 /* General styles end here */
 
 /* Header styles start here */
 
-.flexContent div {
-    padding-top: 35px;
-    padding-bottom: 135px;
+.headerLeft {
+    width: 60%;
+}
+
+.headerRight {
+    width: 40%;
+}
+
+.headerLeft, .headerRight {
+    padding: 67px 30px;
 }
 
 nav li {
@@ -212,20 +231,7 @@ nav li a:hover, .nav i:hover {
 
 .nav i {
     cursor: pointer;
-    padding: 0 60px;
-}
-
-.nav {
-    width: 40%;
-}
-
-.logo {
-    width: 20%;
-}
-
-.form {
-    width: 40%;
-    padding-right: 60px!important;
+    padding-right: 50px;
 }
 
 .search {
