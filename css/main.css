@@ -145,6 +145,10 @@ h1 {
     background-color: #deebeb;
 }
 
+.darkGreenBg {
+    background-color: #b4d3d3;
+}
+
 .whiteBg {
     background-color: #ffffff;
 }
@@ -179,6 +183,10 @@ h1 {
     padding: 15px 25px;
 }
 
+.btnMd {
+    padding: 25px 83px;
+}
+
 /* Input/button styles start here */
 
 /* Font weight styles start here */
@@ -186,6 +194,11 @@ h1 {
 .medium {
     font-weight: 500;
 }
+
+.semiBold {
+    font-weight: 600;
+}
+
 
 .extraBold {
     font-weight: 800;
@@ -211,6 +224,10 @@ h1 {
     color: #1a1a1d;
 }
 
+.colorWhite {
+    color: #ffffff;
+}
+
 /* Text color styles end here */
 
 /* Text transform styles start here */
@@ -232,9 +249,32 @@ h1 {
     transition: 0.3s ease-out;
 }
 
+.transitionBg {
+    -webkit-transition:  background 0.5s ease-out;
+    -moz-transition: background  0.5s ease-out;
+    -o-transition: background  0.5s ease-out;
+    transition:  background 0.5s ease-out;
+}
+
 .inlineBlock {
     display: inline-block;
 }
+
+/* Letter spacing styles start here */
+
+.letterspacingMd {
+    letter-spacing: 2px;
+}
+
+/* Letter spacing styles end here */
+
+/* Border-radius styles start here */
+
+.borderRadius {
+    border-radius: 7px;
+}
+
+/* Border-radius styles end here */
 
 /* General styles end here */
 
@@ -268,10 +308,12 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 }
 
 .search {
-    border-left: 1px solid #b4d3d3;
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: 2px;
+}
+
+.search:focus {
+    border-left: 1px solid #b4d3d3;
 }
 
 /* Header styles end here */
@@ -280,14 +322,17 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .talentLeft {
     width: 60%;
+    padding-left: 63px;
 }
 
 .talentRight {
     width: 40%;
+    padding-right: 121px;
 }
 
 .talentRight, .talentLeft {
-    padding: 203px 63px 270px 63px;
+    padding-top: 203px;
+    padding-bottom: 270px;
 }
 
 .socialIcons {
@@ -297,6 +342,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 .talentInfo {
     width: 79%;
     padding-left: 145px;
+    padding-top: 135px;
 }
 
 .socialIcons ul li {
@@ -321,13 +367,30 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     width: 20px;
 }
 
-.talentImage img {
+.talentRight .image {
     width: 100%;
 }
 
-.talentImage a:hover {
+.talentRight a:hover {
     opacity: 0.8;
 }
 
+.hLine {
+    border-top: 7px solid #b4d3d3;
+    max-width: 95px;
+ }
+
+.talentInfo div:nth-child(2) {
+    width: 74%;
+}
+
+.talentInfo a {
+    margin-top: 50px;
+    margin-bottom: 163px;
+}
+
+.talentInfo a:hover {
+    background-color: #1a1a1d;
+}
 
 /* Talent section styles end here */
