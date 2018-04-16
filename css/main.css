@@ -342,7 +342,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 .talentInfo {
     width: 79%;
     padding-left: 145px;
-    padding-top: 135px;
+    padding-top: 130px;
 }
 
 .socialIcons ul li {
@@ -355,7 +355,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .vLine {
     border-left: 3px solid;
-    height: 15%;
+    min-height: 60px;
 }
 
 .index {
@@ -368,6 +368,10 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 }
 
 .talentRight .image {
+    max-height: 542px;
+}
+
+.talentRight img {
     width: 100%;
 }
 
@@ -386,11 +390,12 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .talentInfo a {
     margin-top: 50px;
-    margin-bottom: 163px;
+    margin-bottom: 145px;
 }
 
 .talentInfo a:hover {
     background-color: #1a1a1d;
 }
+
 
 /* Talent section styles end here */
