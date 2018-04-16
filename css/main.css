@@ -70,6 +70,10 @@ input {
     outline: none;
 }
 
+textarea {
+    resize: vertical;
+}
+
 /* Reset css ends here */
 
 /* General styles start here */
@@ -87,12 +91,26 @@ body {
     margin: 0 auto;
 }
 
+/* Font family styles start here */
+
+.poppins {
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* Font family styles end here */
+
+/* Flex styles start here */
+
 .flex {
     display: flex;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+}
+
+.flexColoumn {
+    flex-direction: column;
 }
 
 .alignItemCenter {
@@ -110,6 +128,14 @@ body {
 .flexEnd {
     justify-content: flex-end;
 }
+
+/* Flex styles end here */
+
+/* Font family styles start here */
+
+
+
+/* Font family styles end here */
 
 /* Background color styles start here*/
 
@@ -155,6 +181,10 @@ body {
 
 /* Font weight styles start here */
 
+.medium {
+    font-weight: 500;
+}
+
 .extraBold {
     font-weight: 800;
 }
@@ -175,7 +205,7 @@ body {
 
 /* Text color styles start here */
 
-.txtDark {
+.colorDark {
     color: #1a1a1d;
 }
 
@@ -210,6 +240,7 @@ body {
 
 .headerLeft {
     width: 60%;
+    padding-left: 60px;
 }
 
 .headerRight {
@@ -217,7 +248,7 @@ body {
 }
 
 .headerLeft, .headerRight {
-    padding: 67px 30px;
+    padding: 67px 60px 0 60px;
 }
 
 nav li {
@@ -225,7 +256,7 @@ nav li {
     padding-right: 30px;
 }
 
-nav li a:hover, .nav i:hover {
+nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     color: 	#717d87;
 }
 
@@ -249,7 +280,7 @@ nav li a:hover, .nav i:hover {
     width: 60%;
 }
 
-.talentRight{
+.talentRight {
     width: 40%;
 }
 
@@ -271,6 +302,19 @@ nav li a:hover, .nav i:hover {
 
 .socialIcons ul li a {
     color: #1a1a1d;
+}
+
+.vLine {
+    border-left: 3px solid;
+    height: 5%;
+}
+
+.index span {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
 }
 
 /* Talent section styles end here */
