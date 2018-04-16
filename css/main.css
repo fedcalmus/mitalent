@@ -97,6 +97,14 @@ body {
     font-family: 'Poppins', sans-serif;;
 }
 
+/* Heading styles start here */
+
+h1 {
+    font-size: 101px;
+}
+
+/* Heading styles end here */
+
 /* Font family styles end here */
 
 /* Flex styles start here */
@@ -130,12 +138,6 @@ body {
 }
 
 /* Flex styles end here */
-
-/* Font family styles start here */
-
-
-
-/* Font family styles end here */
 
 /* Background color styles start here*/
 
@@ -294,6 +296,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .talentInfo {
     width: 79%;
+    padding-left: 145px;
 }
 
 .socialIcons ul li {
@@ -306,7 +309,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .vLine {
     border-left: 3px solid;
-    height: 5%;
+    height: 15%;
 }
 
 .index {
@@ -317,5 +320,14 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     transform: rotate(270deg);
     width: 20px;
 }
+
+.talentImage img {
+    width: 100%;
+}
+
+.talentImage a:hover {
+    opacity: 0.8;
+}
+
 
 /* Talent section styles end here */
