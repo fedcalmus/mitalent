@@ -89,6 +89,7 @@ body {
 .container {
     width: 94%;
     margin: 0 auto;
+    padding: 0 120px;
 }
 
 /* Font family styles start here */
@@ -139,6 +140,10 @@ h6 {
 
 .flexEnd {
     justify-content: flex-end;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
 }
 
 /* Flex styles end here */
@@ -285,6 +290,13 @@ h6 {
 
 /* Border-radius styles end here */
 
+/* Line height styles start here */
+
+.lineHeightNone {
+    line-height: 0;
+}
+/* Line height styles end here */
+
 /* General styles end here */
 
 /* Header styles start here */
@@ -415,5 +427,49 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding-bottom: 65px;
 }
 
-
 /* Talent section styles end here */
+
+/* Categories section styles start here */
+
+.categories {
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-bottom: 250px;
+}
+
+.categories ul li {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+.categories ul li:hover, .categories ul .active {
+    padding-right: 35px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #1a1a1d;
+}
+
+.categories ul li a {
+    margin-left: 18px;
+}
+
+.categories .grid {
+    padding-top: 85px;
+}
+
+.grid {
+    max-width: 1680px;
+}
+
+.grid .item {
+    width: 25%;
+}
+
+.grid .item img {
+    width: 100%;
+}
+
+
+/* Categories section styles end here */
