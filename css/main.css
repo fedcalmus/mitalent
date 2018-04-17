@@ -341,17 +341,24 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .talentRight, .talentLeft {
     padding-top: 203px;
-    padding-bottom: 270px;
+    padding-bottom: 67px;
 }
 
 .socialIcons {
     width: 21%;
 }
 
-.talentInfo {
+.talentContent {
     width: 79%;
+}
+
+.talentInfo {
     padding-left: 145px;
     padding-top: 130px;
+}
+
+.socialIcons {
+    max-height: 542px;
 }
 
 .socialIcons ul li {
@@ -387,7 +394,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 .hLine {
     border-top: 7px solid #b4d3d3;
     max-width: 95px;
- }
+}
 
 .talentInfo div:nth-child(2) {
     width: 74%;
