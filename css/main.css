@@ -98,6 +98,10 @@ body {
     font-family: 'Poppins', sans-serif;;
 }
 
+.playfairDisplay {
+    font-family: 'Playfair Display', serif;
+}
+
 /* Font family styles end here */
 
 /* Heading styles start here */
@@ -246,6 +250,10 @@ h9 {
     font-size: 16px;
 }
 
+.txtL {
+    font-size: 30px;
+}
+
 /* Font size styles end here */
 
 /* Text color styles start here */
@@ -256,6 +264,10 @@ h9 {
 
 .colorWhite {
     color: #ffffff;
+}
+
+.colorGrey {
+    color: #73737b;
 }
 
 /* Text color styles end here */
@@ -593,5 +605,14 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     bottom: -270px;
 }
 
+.connection .heading {
+    top: 100px;
+    z-index: 1;
+    left: 210px;
+}
+
+.tweet {
+    max-width: 565px;
+}
 
 /* Social connection styles end here */
