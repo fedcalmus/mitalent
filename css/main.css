@@ -434,10 +434,15 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 }
 
 .talentRight .image {
-    max-height: 542px;
+    height: 542px;
+    background-image: url(../img/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
-.talentRight a:hover {
+.talentRight .image:hover {
     opacity: 0.8;
 }
 
@@ -468,7 +473,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 /* Categories section styles start here */
 
 .categories {
-    padding: 120px 0 120px 120px;
+    padding: 120px;
 }
 
 .categories ul li {
@@ -579,7 +584,12 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 /* Social connection styles start here */
 
 .connection .content {
-    max-height: 721px;
+    background-image: url(../img/socialLarge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 721px;
+    width: 100%;
 }
 
 .connection .greenSection {
@@ -612,6 +622,11 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 .tweet {
     max-width: 565px;
     right: 350px;
+    bottom: -215px;
+}
+
+.tweet a:hover {
+    opacity: 0.8;
 }
 
 /* Social connection styles end here */
@@ -624,7 +639,7 @@ footer {
 
 footer .container {
     padding: 50px 20px;
-    border-top: 2px solid #1a1a1d;
+    border-top: 3px solid #72b9b9;
 }
 
 /* Footer styles end here */
