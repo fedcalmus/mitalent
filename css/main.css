@@ -344,6 +344,10 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding-right: 50px;
 }
 
+.logo img:hover {
+    opacity: 0.6;
+}
+
 .search {
     text-transform: uppercase;
     font-size: 14px;
@@ -351,6 +355,10 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .search:focus {
     border-left: 1px solid #b4d3d3;
+    -webkit-transition: border-left 0.5s ease-out;
+    -moz-transition: border-left  0.5s ease-out;
+    -o-transition: border-left 0.5s ease-out;
+    transition: border-left  0.5s ease-out;
 }
 
 /* Header styles end here */
@@ -393,7 +401,11 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding-bottom: 40px;
 }
 
-.socialIcons ul li a {
+.socialIcons ul li a:hover {
+    opacity: 0.6;
+}
+
+.talentLeft .socialIcons ul li a {
     color: #1a1a1d;
 }
 
@@ -438,9 +450,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 }
 
 .talentRight .details {
-    padding-top: 75px;
-    padding-left: 125px;
-    padding-bottom: 65px;
+    padding: 75px 0 65px 125px;
 }
 
 /* Talent section styles end here */
@@ -448,9 +458,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 /* Categories section styles start here */
 
 .categories {
-    padding-top: 120px;
-    padding-left: 120px;
-    padding-bottom: 250px;
+    padding: 120px 0 120px 120px;
 }
 
 .categories ul li {
@@ -459,6 +467,8 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding-right: 35px;
     padding-bottom: 16px;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 .categories ul li:hover, .categories ul .active {
@@ -469,6 +479,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     -moz-transition: border 0.5s ease-out;
     -o-transition: border 0.5s ease-out;
     transition: border 0.5s ease-out;
+    font-weight: 800;
 }
 
 .categories ul li a {
@@ -502,7 +513,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #2d2f33;
+    background-color: #2d2f33e0;
     color: #ffffff;
     position: absolute;
     display: none;
@@ -553,5 +564,34 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding-top: 25px;
 }
 
-
 /* Categories section styles end here */
+
+/* Social connection styles start here */
+
+.connection .content {
+    max-height: 721px;
+}
+
+.connection .greenSection {
+    width: 61px;
+    min-height: 719px;
+}
+
+.connection .socialIcons {
+    padding: 95px 0 132px 74px;
+    right: 0;
+    bottom: 0;
+    min-width: 479px;
+}
+
+.connection .socialIcons ul li a {
+    color: #ffffff;
+}
+
+.connection .smallImage {
+    right: 0;
+    bottom: -270px;
+}
+
+
+/* Social connection styles end here */
