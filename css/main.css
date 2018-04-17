@@ -86,12 +86,6 @@ body {
     color: #1a1a1d;
 }
 
-.container {
-    width: 94%;
-    margin: 0 auto;
-    padding: 0 120px;
-}
-
 /* Font family styles start here */
 
 .poppins {
@@ -268,6 +262,10 @@ h9 {
 
 .colorGrey {
     color: #73737b;
+}
+
+.colorGreen {
+    color: #72b9b9;
 }
 
 /* Text color styles end here */
@@ -613,6 +611,20 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .tweet {
     max-width: 565px;
+    right: 350px;
 }
 
 /* Social connection styles end here */
+
+/* Footer styles start here */
+
+footer {
+    padding-top: 300px;
+}
+
+footer .container {
+    padding: 50px 20px;
+    border-top: 2px solid #1a1a1d;
+}
+
+/* Footer styles end here */
