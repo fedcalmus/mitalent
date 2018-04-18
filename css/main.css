@@ -434,7 +434,6 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 
 .talentRight .image {
     height: 542px;
-    background-image: url(../img/user.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -471,7 +470,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     padding: 120px;
 }
 
-.categories ul li {
+.categoryItems li {
     display: inline-block;
     border-bottom: 2px solid transparent;
     padding-right: 35px;
@@ -479,29 +478,24 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     cursor: pointer;
     font-weight: 700;
     font-size: 12px;
-}
-
-.categories ul li:hover, .categories ul .active {
-    padding-right: 35px;
-    padding-bottom: 16px;
-    border-bottom: 2px solid #1a1a1d;
     -webkit-transition: border 0.5s ease-out;
     -moz-transition: border 0.5s ease-out;
     -o-transition: border 0.5s ease-out;
     transition: border 0.5s ease-out;
-    font-weight: 800;
 }
 
-.categories ul li a {
-    margin-left: 18px;
-}
-
-.categories .grid {
-    padding-top: 85px;
+.categoryItems .current, .categoryItems li:hover {
+    border-color: #1a1a1d;
 }
 
 .grid {
+    padding-top: 85px;
     max-width: 1680px;
+    display: none;
+}
+
+.grid.current {
+    display: flex;
 }
 
 .grid .item {
@@ -579,7 +573,6 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 /* Social connection styles start here */
 
 .connection .content {
-    background-image: url(../img/socialLarge.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
