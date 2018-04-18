@@ -442,10 +442,6 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     width: 100%;
 }
 
-.talentRight .image:hover {
-    opacity: 0.8;
-}
-
 .hLine {
     border-top: 7px solid #b4d3d3;
     max-width: 95px;
@@ -614,7 +610,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
 }
 
 .connection .heading {
-    top: 100px;
+    top: 150px;
     z-index: 1;
     left: 210px;
 }
@@ -643,3 +639,61 @@ footer .container {
 }
 
 /* Footer styles end here */
+
+/* Responsive styles start here */
+
+@media only screen and (max-width: 1545px) {
+
+    .categoryInfo h9 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .talentContent div:nth-child(2) {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .talentContent .hLine {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .talentRight .image {
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .talentInfo {
+        padding-left: 60px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .connection .heading {
+        left: 60px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+
+    header {
+        flex-direction: column;
+    }
+
+}
+
+/* Responsive styles end here */
