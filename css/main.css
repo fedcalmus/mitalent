@@ -329,7 +329,6 @@ h9 {
 
 .headerLeft {
     width: 60%;
-    padding-left: 60px;
 }
 
 .headerRight {
@@ -676,7 +675,11 @@ footer .container {
 @media only screen and (max-width: 1200px) {
 
     .talentInfo {
-        padding-left: 60px;
+        padding-left: 30px;
+    }
+
+    .talentRight {
+        padding-right: 0;
     }
 
     h1 {
@@ -686,12 +689,37 @@ footer .container {
     .connection .heading {
         left: 60px;
     }
+
+    .grid .item {
+        width: 33.3%;
+    }
 }
 
 @media only screen and (max-width: 1030px) {
 
-    header {
+   nav {
+       display: none!important;
+   }
+
+    .headerLeft, .headerRight {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .headerLeft {
+        justify-content: unset;
+    }
+
+    .talent {
         flex-direction: column;
+    }
+
+    .talentLeft {
+        width: 100%;
+    }
+
+    .headerLeft, .headerRight {
+        width: 50%;
     }
 
 }
