@@ -517,7 +517,7 @@ nav li a:hover, .nav i:hover, .socialIcons ul li a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #2d2f33e0;
+    background-color: rgba(45, 47, 51, 0.9);
     color: #ffffff;
     position: absolute;
     display: none;
@@ -680,7 +680,7 @@ footer .container {
     }
 
     .connection .heading {
-        left: 60px;
+        left: 20px;
     }
 
     .grid .item {
@@ -749,7 +749,7 @@ footer .container {
 
     .connection .heading {
         left: 15px;
-        background-color: #b4d3d3a6;
+        background-color: rgba(180, 211, 211, 0.7 );
         padding: 25px;
     }
 
@@ -773,7 +773,7 @@ footer .container {
     .tweet {
         width: 100%;
         padding: 25px;
-        background-color: #b4d3d3f2;
+        background-color: rgba(180, 211, 211, 0.9);
         right: 0;
     }
 
