@@ -697,17 +697,20 @@ footer .container {
 
 @media only screen and (max-width: 1030px) {
 
-   nav {
-       display: none!important;
-   }
 
-    .headerLeft, .headerRight {
-        padding-right: 30px;
-        padding-left: 30px;
+    header {
+        flex-direction: column;
     }
 
-    .headerLeft {
-        justify-content: unset;
+    .headerLeft, .headerRight {
+        width: 100%;
+        padding-bottom: 67px;
+    }
+
+
+    .talentLeft {
+        padding-top: 63px;
+        padding-bottom: 63px;
     }
 
     .talent {
@@ -718,8 +721,115 @@ footer .container {
         width: 100%;
     }
 
-    .headerLeft, .headerRight {
+    .talentRight {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .grid .item {
         width: 50%;
+    }
+
+    .tweet {
+        bottom: -150px;
+    }
+
+    .tweet p {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+
+    .categories {
+        padding: 50px;
+    }
+
+    .tweet p {
+        font-size: 16px;
+    }
+
+    .connection .socialIcons {
+        padding: 45px 0 25px 74px;
+    }
+
+    .connection .heading {
+        left: 15px;
+        background-color: #b4d3d3a6;
+        padding: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .headerLeft {
+        flex-direction: column;
+    }
+
+    nav {
+        padding-bottom: 63px;
+    }
+
+    .categories ul li {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .tweet {
+        width: 100%;
+        padding: 25px;
+        background-color: #b4d3d3f2;
+        right: 0;
+    }
+
+    .talentLeft {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .talentLeft .socialIcons {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        padding-bottom: 63px;
+    }
+
+    .talentLeft .socialIcons ul li {
+        display: inline-block;
+        padding-right: 25px;
+        padding-bottom: 0;
+    }
+
+    .talentContent {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .grid .item {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .connection .heading h1 {
+        font-size: 35px;
+    }
+
+    .talentRight .image {
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .headerLeft, .headerRight {
+        padding: 25px;
     }
 
 }
